@@ -1,0 +1,64 @@
+body {
+	text-align: center;
+	vertical-align: middle;
+	background-color: white;
+	background-image: url("./Ginko.Mushishi.full.230979.jpg");
+	background-size: 1250px 900px;
+}
+
+.container {
+	/*margin-top: 200px;
+	margin-left: 550px;*/
+	display: inline-block;
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.6);
+	color:white;
+	font-family: fantasy;
+	border:5px solid;
+	border-color: rgba(0, 0, 0, 0);
+	border-radius: 8px;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: /*whatever width you want*/;
+}
+
+.eight{
+	width: 800px;
+}
+
+.three{
+	width: 300px;
+}
+
+#headd {
+	color:#6699ff;
+	font-size:20px;
+}
+
+a {
+	color:white;
+	text-decoration: none;
+}
+
+a:hover{
+	color:yellow;
+};
+
+a:visited{
+	color: white;
+};

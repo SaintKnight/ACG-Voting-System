@@ -1,0 +1,82 @@
+body {
+	background-color: white;
+	background-image: url("../Ginko.Mushishi.full.230979.jpg");
+	background-size: 1250px 900px;
+}
+
+#left {
+	/*margin-top: 200px;
+	margin-left: 550px;*/
+	text-align: center;
+	width:300px;
+	height: 700px;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 100px;
+	background-color: rgba(0, 0, 0, 0.6);
+	color:white;
+	font-family: fantasy;
+	border:5px solid;
+	border-color: rgba(0, 0, 0, 0);
+	border-radius: 8px;
+	-webkit-transition: color 0.5s;
+}
+
+#rightup {
+	margin-left: 430px;
+	margin-top: 50px;
+	width: 800px;
+	height: 200px;
+	display: inline-block;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.6);
+	color:white;
+	font-family: fantasy;
+	border:5px solid;
+	border-color: rgba(0, 0, 0, 0);
+	border-radius: 8px;
+}
+#rightdown {
+	margin-left: 430px;
+	margin-top: 280px;
+	width: 800px;
+	height: 470px;
+	display: inline-block;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.6);
+	color:white;
+	font-family: fantasy;
+	border:5px solid;
+	border-color: rgba(0, 0, 0, 0);
+	border-radius: 8px;
+}
+
+#photo {
+	margin-top: 50px;
+	margin-left: 50px;
+
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+      background-size: cover;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited{
+	color:white;
+}
+
+a:hover{
+	color: yellow;
+}
+
+#manage {
+	text-align: left;
+	position: relative;
+	margin-left: 20px;
+	margin-top: 50px;
+}
